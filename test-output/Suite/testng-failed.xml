@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="smoke(failed)">
+    <classes>
+      <class name="sri.test.smoke.LoginPageSmokeTest">
+        <methods>
+          <include name="testLoginPage"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- sri.test.smoke.LoginPageSmokeTest -->
+      <class name="sri.test.smoke.LoginPageCredentialsTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="test2LoginPageInvalidLogin"/>
+        </methods>
+      </class> <!-- sri.test.smoke.LoginPageCredentialsTest -->
+    </classes>
+  </test> <!-- smoke(failed) -->
+</suite> <!-- Failed suite [Suite] -->

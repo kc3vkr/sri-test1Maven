@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46422" started-at="2018-12-03T04:20:09Z" finished-at="2018-12-03T04:20:56Z">
+    <groups>
+    </groups>
+    <test name="smoke" duration-ms="46422" started-at="2018-12-03T04:20:09Z" finished-at="2018-12-03T04:20:56Z">
+      <class name="sri.test.smoke.LoginPage2CredentialsTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:sri.test.smoke.LoginPage2CredentialsTest@6d00a15d]" name="preCondition" is-config="true" duration-ms="11654" started-at="2018-12-03T09:50:33Z" finished-at="2018-12-03T09:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="test2LoginPageInvalidLogin()[pri:0, instance:sri.test.smoke.LoginPage2CredentialsTest@6d00a15d]" name="test2LoginPageInvalidLogin" duration-ms="7016" started-at="2018-12-03T09:50:45Z" finished-at="2018-12-03T09:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2LoginPageInvalidLogin -->
+        <test-method status="PASS" signature="postCondtion()[pri:0, instance:sri.test.smoke.LoginPage2CredentialsTest@6d00a15d]" name="postCondtion" is-config="true" duration-ms="4148" started-at="2018-12-03T09:50:52Z" finished-at="2018-12-03T09:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondtion -->
+      </class> <!-- sri.test.smoke.LoginPage2CredentialsTest -->
+      <class name="sri.test.smoke.LoginPage1SmokeTest">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:sri.test.smoke.LoginPage1SmokeTest@548a9f61]" name="preCondition" is-config="true" duration-ms="17458" started-at="2018-12-03T09:50:09Z" finished-at="2018-12-03T09:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:sri.test.smoke.LoginPage1SmokeTest@548a9f61]" name="testLoginPage" duration-ms="3852" started-at="2018-12-03T09:50:27Z" finished-at="2018-12-03T09:50:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="postCondtion()[pri:0, instance:sri.test.smoke.LoginPage1SmokeTest@548a9f61]" name="postCondtion" is-config="true" duration-ms="2227" started-at="2018-12-03T09:50:31Z" finished-at="2018-12-03T09:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondtion -->
+      </class> <!-- sri.test.smoke.LoginPage1SmokeTest -->
+    </test> <!-- smoke -->
+  </suite> <!-- Suite -->
+</testng-results>
